@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alexjj</title>
+</head>
+<body bgcolor="red">
+    <header>
+        <a href="alexmike.html" style="text-decoration: none;color: blue;">HOME</a>
+        &nbsp;&nbsp;
+        <a href="about.html" style="text-decoration: none;color: black;">ABOUT</a>
+        &nbsp;&nbsp;
+        <a href="index.html" style="text-decoration: none;color: black;">PORTAL</a>
+        &nbsp;&nbsp;
+        <a href="gallery.html" style="text-decoration: none;color: black;">GALLERY</a>
+        &nbsp;&nbsp;
+        <a href="contact.html" style="text-decoration: none;color: black;">CONTACT</a>
+    </header>
+     <main>
+        <form action="process.html" method="post" enctype="multipart/form-data">
+            <table border="10" align="center"width="60%" cellspacing="10px" cellpadding="10px">
+            <caption>registration from Box</caption>
+            <tr>
+                <td>
+                    <label for="">Fullname: </label>
+                    <input type="text" name=""id="Fullname" placeholder="alex mike" maxlength="10">
+                </td>
+                <td>
+                    <label for="contact">Contact</label>
+                    <input type="tel" name="" id="contact" placeholder="+(234) xxx  xxxxx" minlength="11" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="number">age</label>
+                    <input type="number" name="" id="age" required min="16" max="50">
+                </td>
+                <td>
+                    <label for="dob"> date of birth</label>
+                    <input type="date" name="" id="dob" max="2016">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>Specify Your Gender</span><br>
+                    <input type="radio" name="man" id=""><label for="male">male</label>
+                    <input type="radio" name="man"checked id=""><label for="female">female</label>
+                    <input type="radio" name="man"id=""><label for="other">other</label>
+                </td>
+                <td>
+                    <label for=""> nationality</label>
+                    <select name="" id="">
+                        <option value="selected disabled">select country</option>
+                        <option value="bel">belaurs</option>
+                        <option value="uk">united kingdom</option>
+                        <option value="chn">china</option>
+                        <option value="cdr">congo</option>
+                        <option value="dbi">dubai</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <label for="email">email</label>
+                   <input type="email" name="" id="email" placeholder="email">
+                </td>
+                <td>
+                   <label for="password">password</label>
+                   <input type="password" name="" id="password" placeholder="password">
+                </td>
+            </tr>
+          <tr>
+            <td>
+                <label for="">profile picture</label>
+                <input type="file" name="" id="picture" accept="image/*">
+            </td>
+            <td>
+                <label for="">user visual tape</label>
+                <input type="file" name="" id="video" accept="video/*">
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+                <textarea name="" id="" cols="90" rows="8" placeholder=" write a short comment here"></textarea>
+            </td>
+          </tr>
+            <tr>
+                <th colspan="2"><button type="submit">registration</button></th>
+            </tr>
+            </table>
+        </form>
+    </main>
+</body>
+</html>
